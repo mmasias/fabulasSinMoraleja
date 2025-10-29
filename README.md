@@ -1,5 +1,5 @@
 <div align=center>
-<img src="images/portada.png" width=35%>
+<img src="images/portada.png" width=40% border=1>
 </div>
 
 <div align=right>
@@ -13,7 +13,7 @@
 Me alcanzó una lluvia fría  
 paseando en Meridiana  
 y por no mojarte el alma  
-mejor te veo otro día  
+ya mejor te veo otro día  
   
 Caminando se me pasa  
 y en la calle un apagón  
@@ -22,7 +22,7 @@ llamando a la inspiración
   
 *Mediqué la redacción*  
 *pero me faltaba luz*  
-*y aunque te hice una canción (un blues)*  
+*y aunque hice una canción (un blues)*  
 *no lo pude escribir*  
   
 Creo que hablaba de las cosas  
@@ -51,7 +51,7 @@ pasa por hacer a un lado lo que no pasó
 y abajo la tiranía de los recuerdos y de la pasión  
   
 *Ahora se sienta*  
-*aturdida ante la duda*  
+*aturdido ante la duda*  
 *de saber si la fortuna*  
 *en algún rincón perdido*  
 *ya le sonrió...*  
@@ -141,7 +141,7 @@ me dió por pensar en mi obituario...
   
 No escrito por mi, algo mal redactado;  
 plantado a pulso en mármol pesado.  
-Supongo dirá que fui bueno y malvado:  
+Supongo dirá que fui bueno, malvado,  
 que toda mi vida quise ser humano...  
   
 *Y ojalá diga así: que fui un tipo normal.*  
@@ -164,22 +164,22 @@ total de morirse aún nadie se ha muerto...
 Lluvia de abril, dogma de fe.  
 Sin descansar sigo por hoy.  
 Al discutir la reflexión  
-dejé de oír a la razón  
+dejé de oír a la razón 
   
 *Y hoy también soñé*  
   
 Tanto ignorar sin dirección  
 tiende a alargar algo que sé:  
-Todo el azul ya lo tiré.  
-Nunca entendí lo que encontré.  
-  
-Al contestar sin responder  
-más de una vez sentí temor.  
-Sé que no lo van a entender  
-porque mi cruz llegó después.  
+Todo el azul ya lo tiré  
+nunca entendí lo que encontré.  
   
 La fraternal rabia infantil  
 A una señal impartiré.  
+Sé que no lo van a entender  
+porque mi cruz llegó después.  
+  
+Al contestar sin responder  
+más de una vez sentí temor.  
 Tú ya no estás; ellos, no sé.  
 Mañana yo ya no estaré  
 
@@ -226,7 +226,7 @@ para que no duela, para que si vuela su voz pueda gritar:
 Habla y refuta los dogmas sagrados a un cirio de cincuenta watts  
 acólito blando de la sacristía del templo de una sociedad  
 que lucra en sus fieles, induce su alogia y luego no duda en dictar  
-retórica obscura en frases que exudan hedor espiritual  
+retórica oscura en frases que exudan hedor espiritual  
   
 Parte en la noche inseguro a un viaje del cual no va a regresar  
 con débil linterna va casi a tientas, no sabe ni porqué se va  
