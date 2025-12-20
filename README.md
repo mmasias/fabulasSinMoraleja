@@ -31,7 +31,7 @@ a tu recuerdo borroso
 hasta me hizo sonreír  
   
 Lo que queda escrito ahora  
-lo robé a la memoria  
+lo dicté a la memoria  
 y aunque no sea ni su sombra  
 algo tendrá que decir  
   
