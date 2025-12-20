@@ -32,7 +32,7 @@ hasta me hizo sonreír
   
 Lo que queda escrito ahora  
 lo dicté a la memoria  
-y aunque no sea ni su sombra  
+y aunque no es ni su sombra  
 algo tendrá que decir  
   
 *Luego le grité a mi cuarto*  
