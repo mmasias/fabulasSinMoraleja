@@ -35,7 +35,7 @@ lo dicté a la memoria
 y aunque no sea ni su sombra  
 algo tendrá que decir  
   
-*Luego regresé a mi cuarto*  
+*Luego le grité a mi cuarto*  
 *pues mi cama me dolía*  
 *No me llama la atención*  
 *que mi casa esté vacía*  
