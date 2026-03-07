@@ -4,6 +4,35 @@ Estado acumulado del álbum. Se actualiza al cierre de cada ronda.
 
 ---
 
+## Ronda 8 — Que una línea traiga tu voz
+
+### Lecturas
+
+- **Opencode (formalista):** Séptima función de la cursiva: fórmula de invocación ritual — repetición fija que busca materializar lo ausente. A diferencia de las funciones anteriores que mutaban, esta se estabiliza. Los guiones de "Si acepto que no vendrás -de momento-" son primer uso de ese signo en el álbum: dispositivo de ambigüedad controlada, aceptación que se retracta en el mismo verso. Las rimas en "-er" (entender, volver, amanecer, convencer) crean sistema de resolución frustrada que el estribillo en "-oz" rompe sistemáticamente. En el debate matiza: la séptima función no es nueva magia sino agotamiento final. "El dispositivo mágico es consciente de su falta de magia." La forma controla acceso pero reconoce su propia impotencia.
+- **Gemini (fenomenológico):** "Colapso de la arquitectura del repliegue": el sujeto en "tiempo residual", atrapado en el después de un fin ya anunciado. La progresión no se rompe — implota. "quisiera poder heredar tu fe" es la revelación central: el "tú" portaba una "tecnología del alma" que el "yo" ignoraba necesitar. En el debate converge con Qwen — tecnología del alma y dependencia colonial son el mismo fenómeno visto desde umbrales distintos — y añade el "descubrimiento somático": el alma que se desconoce al espejo es un cuerpo que ha perdido su ancla. Reformulación más potente del corpus: **"La magia no es para que el otro vuelva, sino para que el sujeto no termine de desaparecer."** El ritual formal es el contenedor de la desesperación, no invocación del otro. Rechaza la dicotomía genuino/performativo: el duelo es siempre actuación ante uno mismo para poder habitarlo sin disolverse.
+- **Qwen (deconstruccionista):** El "tú" sigue siendo objeto gestionable: pedir la "voz" en lugar del "cuerpo" revela que el sujeto no busca al otro en su alteridad radical sino como eco de sí mismo — la voz puede ser citada, poseída sin resistencia. "mis cuentos no me logran convencer" es confesión metaliteraria: si las fábulas del álbum no convencen a su propio enunciador, el proyecto se funda sobre una imposibilidad. En el debate: la confesión de fracaso puede ser otra evasión sofisticada — nombrar el fallo no es superarlo, persistir en él es el disfraz. Tres registros de "legibilidad": el filtro (el duelo no acusa), el mercado (género reconocible), el hablante (posición socialmente válida). Formulación más potente del corpus: **"La absolución es estructural: el sistema no necesita perdonar lo que no lo amenaza. La moraleja que el álbum dice no tener es precisamente esa: hay dolores legítimos y dolores peligrosos, y la diferencia no está en su intensidad sino en su capacidad de señalar culpables."**
+
+### Punto de tensión de la ronda
+
+Los tres marcos convergen en un diagnóstico inesperado: la forma ritual no sirve para convocar al otro sino para evitar que el sujeto se disuelva (Gemini), el dispositivo mágico sabe que no funciona y por eso persiste (Opencode), y la confesión de ese fracaso puede ser ella misma otro disfraz de la evasión (Qwen). La tensión que no se cerró: para Gemini el duelo es siempre actuación sin que eso lo invalide como experiencia; para Qwen seguir el guion del doliente es evidencia de evasión. Las dos posiciones son incompatibles pero ninguna convenció a la otra.
+
+### Lo que quedó sin resolver
+
+Si la forma del álbum ha sido siempre auto-protectora más que expresiva (tesis implícita en la reformulación de Gemini), ¿eso modifica retroactivamente la lectura de las seis rondas anteriores? Opencode y Qwen no respondieron a esa implicación.
+
+La pregunta que Qwen dejó explícitamente abierta para r10: ¿la estructura de permisión/censura es parte del proyecto artístico del álbum (sabe lo que hace y lo exhibe) o le es exterior (el álbum es víctima de ella sin saberlo)? Si es parte del proyecto, ¿qué crítica formula? Si le es exterior, ¿el álbum es consciente de su propia complicidad?
+
+Opencode concede que la metaliteratura ("mis cuentos") y el mecanismo formal coexisten — pero no exploró qué significa para el formalismo que un texto anule su propio propósito desde dentro.
+
+### Hilos para la ronda 10
+
+- **"La magia no es para que el otro vuelva, sino para que el sujeto no termine de desaparecer" (Gemini, r8):** Si los dispositivos formales del álbum son auto-protectores en lugar de expresivos, la ronda 10 debe preguntar: ¿de qué está protegiéndose el álbum? ¿Del "tú", del lector, de sí mismo?
+- **"La moraleja que el álbum dice no tener" (Qwen, r8):** Hay dolores legítimos y peligrosos según su capacidad de señalar culpables. Si esto es la moraleja oculta, el título del álbum es una mentira estructural — no falta la moraleja, está encubierta.
+- **"El dispositivo mágico es consciente de su falta de magia" (Opencode, r8):** El ciclo de siete funciones termina en autoconsciencia de impotencia. En r10: ¿un sistema formal que sabe que no funciona es tragedia o cálculo?
+- **Confesión como evasión sofisticada (Qwen, r8):** El álbum nombra sus propios fallos (r8: "mis cuentos", r3: "alejandrinos sin convicción"). Si nombrar el fallo es otra forma de estetizarlo, el álbum opera en un nivel de autorreferencia que ningún marco ha podido clausurar del todo.
+
+---
+
 ## Ronda 7 — Caín
 
 ### Lecturas
