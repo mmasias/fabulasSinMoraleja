@@ -40,4 +40,8 @@ Tres marcos críticos sobre nueve poemas + unidad conceptual del álbum.
 
 ## Estado acumulado
 
-→ [blackboard.md](blackboard.md)
+- [blackboard.md](blackboard.md)
+
+## Síntesis
+
+- [sintesis_final.md](sintesis_final.md)
