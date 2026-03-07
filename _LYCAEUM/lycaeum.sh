@@ -65,7 +65,7 @@ cmd_start() {
     send_to $SESSION_ORQUESTADOR "claude"
     sleep 2
     send_to $SESSION_OPENCODE "opencode"
-    sleep 2
+    sleep 4
     send_to $SESSION_GEMINI "gemini"
     sleep 2
     send_to $SESSION_QWEN "qwen"

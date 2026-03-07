@@ -4,6 +4,33 @@ Estado acumulado del álbum. Se actualiza al cierre de cada ronda.
 
 ---
 
+## Ronda 4 — 27, y sigue...
+
+### Lecturas
+
+- **Opencode (formalista):** Cuarta función de la cursiva: fragmento-residuo —eco mínimo que marca ruptura sin ofrecer alternativa. Ciclo completo de cuatro funciones de cursiva en el álbum: prótesis (r1), pausa (r2), ausente (r3), fragmento (r4). El espejo como sujeto activo ("negó su filo", "adornó") es mecanismo de inversión formal: el objeto actúa, el sujeto recibe. La triple negación final (frío, lluvia, dios) materializa la disolución. Posición en el debate: el formalismo describe que el poema ignora la red de cuidados; ese silencio es parte del dispositivo formal, no error.
+- **Gemini (fenomenológico):** Transición de institucionalización del encierro a fenomenología del umbral y la disolución. El hundimiento no es salida del encierro sino su expansión: el horizonte se vuelve el salón. "Rito de extinción sensorial." Acepta al otro invisible (quien recogió las flores) como confirmación del aislamiento: el lector habita la brecha entre el sujeto y los cuidados que ignora. Distinción más fina del corpus: Opencode ve el cuadro terminado; la fenomenología ve la mano que sostiene el pincel mientras se deshace. La disolución de Opencode es resultado estético; la "agencia de la negación" es esfuerzo vital.
+- **Qwen (deconstruccionista):** La ausencia de coartada visible es la coartada más profunda: crónica para no ser interrogada como construcción. El espejo externaliza la violencia —el sujeto es recipiente pasivo de su propia destrucción, pero la pasividad es *selectiva*: actúa (se jura, odia, se hunde) pero externaliza la violencia inicial al espejo. El título promete pertenencia al Club de los 27 que el poema desmiente: "el suicidio fallido es su único acto fallido." Las flores implican a alguien que las recogió —el poema silencia esa red para mantener la épica del héroe trágico solitario. Resuelve la contradicción de la cursiva: la cursiva puede producir (imposibilidad de cierre) o proteger (pedir complicidad) —la distinción no está en la forma sino en lo que cada instancia hace.
+
+### Punto de tensión de la ronda
+
+El hundimiento final puede leerse como estadio culminante de una progresión coherente (Opencode + Gemini) o como imagen heroica que requiere silenciar al otro que actuó mientras el sujeto se hundía (Qwen). La convergencia Opencode-Gemini sobrevive, pero con una grieta: Opencode reconoce que su análisis confirma la pasividad del sujeto sin justificarla —separación de descripción y evaluación que Qwen rechaza como imposible.
+
+### Lo que quedó sin resolver
+
+La distinción de Qwen entre cursiva que produce y cursiva que protege es útil pero potencialmente circular: ¿cómo se determina formalmente si una instancia produce o protege sin recurrir a la interpretación que la distinción pretende fundar? Opencode no la impugnó.
+
+Gemini propone que el lector "habita la brecha" entre el sujeto y el otro invisible. Queda abierto si la fenomenología puede habitar una brecha que el poema implica pero no construye explícitamente.
+
+### Hilos para la ronda 10
+
+- **Pasividad selectiva como patrón del álbum:** Si el sujeto actúa sobre sí mismo pero externaliza sistemáticamente la violencia inicial, hay una poética de la víctima que produce su propia victimización. ¿Es eso "fábulas sin moraleja" —relatos donde el agente del daño siempre está afuera?
+- **La distinción cuadro terminado / mano que sostiene el pincel (Gemini):** Tensión más fina del corpus entre análisis formal y fenomenológico. Puede ser el eje metodológico de la ronda 10.
+- **Ciclo de cuatro funciones de cursiva completado (Opencode):** Si la cursiva ha cumplido un ciclo en cuatro poemas, ¿qué dispositivo toma el relevo en los cinco poemas restantes?
+- **El título que desmiente al texto:** "27, y sigue" promete pertenencia que el poema niega. Tercer título con esta operación (r1: canción que no puede escribirse, r2: insurrección que es rendición, r4: club al que no se pertenece por haber sobrevivido). Patrón consolidado.
+
+---
+
 ## Ronda 3 — Las ventanas
 
 ### Lecturas
