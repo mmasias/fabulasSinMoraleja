@@ -4,7 +4,7 @@
 
 ||||||
 |-|-|-|-|-|
-|[🏠️](../README.md)|[Artículo](README.md)|[Contexto](contexto.md)|**Lo más "técnico"**|[Código completo](/_LYCAEUM/)
+|[🏠️](../README.md)|[Artículo](README.md)|[Contexto](contexto.md)|**Lo más "técnico"**|[Experimento completo](/_LYCAEUM/)
 
 </div>
 
