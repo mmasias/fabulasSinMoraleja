@@ -1,0 +1,13 @@
+# Lectura deconstruccionista: Av. Meridiana
+
+El poema se presenta como residuo: lo que queda después de que algo no pudo escribirse. Pero esta declaración de insuficiencia es también su estrategia de protección. Al decirse sombra de una canción no escrita, el poema se exime de ser juzgado como poema completo. Su fracaso declarado es su coartada.
+
+**"Por no mojarte el alma"** condensa la contradicción central. La lluvia es física; el alma, metafórica. La frase trata lo metafórico como si fuera mojable, pero en ese tratamiento invierte la relación: quien dice proteger al otro de una metáfora en realidad se protege a sí mismo de algo literal. ¿Qué es lo literal? No el agua, sino el encuentro. El hablante no evita que el otro se moje; evita mojarse él en el encuentro. El gesto de protección es abandono disfrazado de cuidado. Y el poema necesita que no veamos esta inversión para funcionar como elegía y no como abandono.
+
+El "tú" desaparece después de la primera estrofa porque el poema no puede sostenerlo. Aparece un "nosotros" en "las cosas / que nos han pasado juntos", pero es un nosotros sin sujetos estables: el hablante está solo bajo la lluvia, luego solo en su cuarto, y la cama que le duele es suya, no compartida. Ese "juntos" presupone una relación que el poema mismo desmiente en su estructura estrófica. Cada estrofa es un cuarto vacío donde el otro no entra.
+
+**"Mediqué la reacción / pero me faltaba luz"**: la medicación sugiere algo patológico en la respuesta emocional. Pero la falta de luz no es solo eléctrica (el apagón) sino de inteligibilidad. El poema dice que no pudo escribir por falta de luz, pero está escrito. Algo sí se escribió. La contradicción no se resuelve: lo que se escribió es la imposibilidad de escribir. El blues entre paréntesis —"(un blues)"— es un género citado, no practicado. El poema nombra lo que no es.
+
+La última estrofa es la más reveladora: "No me llama la atención / que mi casa esté vacía". La casa vacía debería llamar la atención, debería doler. Que no llame la atención es lo que debería extrañar. El poema naturaliza el vacío como si fuera esperado, pero toda la escritura anterior es el síntoma de que ese vacío sí interpela. Se escribe para decir que no hay sorpresa, pero el acto de escribirlo desmiente la ausencia de sorpresa.
+
+¿Qué calla el poema para poder hablar? Calla que el abandono fue activo, no circunstancial. Calla que la "memoria" que dice transcribir es quizás invención. Calla que la cama duele no por ausencia sino por presencia indeseada de quien ya no está. El poema necesita estos silencios para mantenerse como crónica de un encuentro fallido y no como confesión de un evitamiento exitoso.

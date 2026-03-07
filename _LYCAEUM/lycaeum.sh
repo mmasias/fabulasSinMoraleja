@@ -1,6 +1,6 @@
 #!/bin/bash
 # LYCAEUM — Automatización de mesa redonda crítica
-# Uso: ./lycaeum.sh [start|ronda]
+# Uso: ./lycaeum.sh [start|ronda|status]
 
 REPO="$HOME/misRepos/fabulasSinMoraleja"
 LYCAEUM="$REPO/_LYCAEUM"
@@ -10,207 +10,158 @@ SESSION_GEMINI="lycaeum_gemini"
 SESSION_QWEN="lycaeum_qwen"
 
 # ─────────────────────────────────────────────
+# UTILIDADES
+# ─────────────────────────────────────────────
+
+wait_for_file() {
+    local FILE=$1
+    local LABEL=$2
+    echo "⏳ Esperando $LABEL..."
+    while [ ! -s "$FILE" ]; do
+        inotifywait -q -e moved_to,close_write,create "$(dirname $FILE)" 2>/dev/null
+        sleep 0.5
+    done
+    echo "✅ $LABEL listo."
+}
+
+send_to() {
+    local SESSION=$1
+    local MSG=$2
+    tmux send-keys -t "$SESSION" "$MSG"
+    sleep 0.3
+    tmux send-keys -t "$SESSION" "" Enter
+}
+
+wait_three() {
+    local DIR=$1
+    local PREFIX=$2
+    local LABEL=$3
+    echo ""
+    echo "⏳ Esperando las tres respuestas ($LABEL)..."
+    for AGENTE in opencode gemini qwen; do
+        wait_for_file "$DIR/${PREFIX}_${AGENTE}.md" "${PREFIX}_${AGENTE}.md"
+    done
+    echo ""
+    echo "✅ Las tres respuestas de $LABEL están escritas."
+}
+
+# ─────────────────────────────────────────────
 # COMANDO: start
-# Lanza las cuatro sesiones tmux con los CLIs
 # ─────────────────────────────────────────────
 cmd_start() {
-    echo "Lanzando sesiones LYCAEUM..."
+    echo "🚀 Lanzando sesiones LYCAEUM..."
 
-    # Matar sesiones previas si existen
-    tmux kill-session -t $SESSION_ORQUESTADOR 2>/dev/null
-    tmux kill-session -t $SESSION_OPENCODE 2>/dev/null
-    tmux kill-session -t $SESSION_GEMINI 2>/dev/null
-    tmux kill-session -t $SESSION_QWEN 2>/dev/null
+    for S in $SESSION_ORQUESTADOR $SESSION_OPENCODE $SESSION_GEMINI $SESSION_QWEN; do
+        tmux kill-session -t $S 2>/dev/null
+    done
 
-    # Crear sesiones en background
     tmux new-session -d -s $SESSION_ORQUESTADOR -c "$REPO"
-    tmux new-session -d -s $SESSION_OPENCODE -c "$REPO"
-    tmux new-session -d -s $SESSION_GEMINI -c "$REPO"
-    tmux new-session -d -s $SESSION_QWEN -c "$REPO"
+    tmux new-session -d -s $SESSION_OPENCODE    -c "$REPO"
+    tmux new-session -d -s $SESSION_GEMINI      -c "$REPO"
+    tmux new-session -d -s $SESSION_QWEN        -c "$REPO"
 
-    # Lanzar CLIs en cada sesión
-    tmux send-keys -t $SESSION_ORQUESTADOR "claude" Enter
-    sleep 1
-    tmux send-keys -t $SESSION_OPENCODE "opencode" Enter
-    sleep 1
-    tmux send-keys -t $SESSION_GEMINI "gemini" Enter
-    sleep 1
-    tmux send-keys -t $SESSION_QWEN "qwen" Enter
+    send_to $SESSION_ORQUESTADOR "claude"
     sleep 2
+    send_to $SESSION_OPENCODE "opencode"
+    sleep 2
+    send_to $SESSION_GEMINI "gemini"
+    sleep 2
+    send_to $SESSION_QWEN "qwen"
+    sleep 3
 
-    # Cargar contextos en los subordinados
-    echo "Cargando contextos..."
-    tmux send-keys -t $SESSION_OPENCODE "@_LYCAEUM/contexto_opencode.md" Enter
+    echo "📖 Cargando contextos..."
+    send_to $SESSION_OPENCODE "@_LYCAEUM/contexto_opencode.md"
+    sleep 3
+    send_to $SESSION_GEMINI "@_LYCAEUM/contexto_gemini.md"
+    sleep 3
+    send_to $SESSION_QWEN "@_LYCAEUM/contexto_qwen.md"
     sleep 2
-    tmux send-keys -t $SESSION_GEMINI "@_LYCAEUM/contexto_gemini.md" Enter
-    sleep 2
-    tmux send-keys -t $SESSION_QWEN "@_LYCAEUM/contexto_qwen.md" Enter
 
     echo ""
-    echo "✅ Sesiones lanzadas:"
-    echo "   tmux attach -t $SESSION_ORQUESTADOR   ← orquestador (Claude)"
+    echo "✅ Sesiones lanzadas. Adjunta en Terminator:"
+    echo "   tmux attach -t $SESSION_ORQUESTADOR   ← Claude (orquestador)"
     echo "   tmux attach -t $SESSION_OPENCODE      ← Opencode (formalista)"
     echo "   tmux attach -t $SESSION_GEMINI        ← Gemini (fenomenológico)"
     echo "   tmux attach -t $SESSION_QWEN          ← Qwen (deconstruccionista)"
     echo ""
-    echo "Abre Terminator con 4 paneles y adjunta cada sesión."
-    echo "Luego ejecuta: ./lycaeum.sh ronda [N] [A|B]"
+    echo "Luego dile al orquestador el objetivo y ejecuta:"
+    echo "   ./lycaeum.sh ronda 1"
 }
 
 # ─────────────────────────────────────────────
-# COMANDO: ronda N [A|B]
-# Vigila la carpeta de la ronda y automatiza
-# el envío de tareas cuando aparecen los task_*.md
+# COMANDO: ronda N
 # ─────────────────────────────────────────────
 cmd_ronda() {
     local N=$(printf "%02d" $1)
-    local FASE=${2:-A}
     local RONDA_DIR="$LYCAEUM/rondas/ronda_$N"
-
     mkdir -p "$RONDA_DIR"
 
-    echo "Vigilando ronda $N — Fase $FASE"
-    echo "Directorio: $RONDA_DIR"
     echo ""
+    echo "════════════════════════════════════════"
+    echo "  LYCAEUM — Ronda $N"
+    echo "════════════════════════════════════════"
 
-    if [ "$FASE" = "A" ]; then
-        watch_fase_a "$RONDA_DIR" "$N"
-    elif [ "$FASE" = "B" ]; then
-        watch_fase_b "$RONDA_DIR" "$N"
-    else
-        echo "Fase desconocida: $FASE. Usa A o B."
-        exit 1
-    fi
-}
-
-# Fase A: espera task_*.md y los envía a los agentes
-watch_fase_a() {
-    local DIR=$1
-    local N=$2
-
-    echo "Esperando task_*.md en $DIR..."
-    echo "(El orquestador debe escribir los tres archivos task_opencode.md, task_gemini.md, task_qwen.md)"
+    # ── FASE A ──
     echo ""
+    echo "── FASE A — Lecturas independientes ──"
 
-    # Esperar y enviar cada task cuando aparece
     for AGENTE in opencode gemini qwen; do
-        local TASK="$DIR/task_${AGENTE}.md"
-        local SESSION="lycaeum_${AGENTE}"
-
-        if [ ! -f "$TASK" ]; then
-            echo "⏳ Esperando $TASK..."
-            inotifywait -e close_write --include "task_${AGENTE}\\.md" "$DIR" 2>/dev/null
-        fi
-
-        echo "📤 Enviando task a $AGENTE..."
-        tmux send-keys -t $SESSION "@_LYCAEUM/rondas/ronda_${N}/task_${AGENTE}.md" Enter
+        wait_for_file "$RONDA_DIR/task_${AGENTE}.md" "task_${AGENTE}.md"
+        echo "📤 Enviando tarea a $AGENTE..."
+        send_to "lycaeum_${AGENTE}" "@_LYCAEUM/rondas/ronda_${N}/task_${AGENTE}.md"
         sleep 1
     done
 
-    echo ""
-    echo "✅ Tareas enviadas. Esperando respuestas..."
-    wait_responses "$DIR" "response" "$N"
-}
+    echo "✅ Tareas Fase A enviadas."
+    wait_three "$RONDA_DIR" "response" "Fase A"
 
-# Fase B: espera task_debate_*.md y los envía
-watch_fase_b() {
-    local DIR=$1
-    local N=$2
+    echo "📣 Notificando al orquestador — Fase A completa..."
+    send_to $SESSION_ORQUESTADOR "Las tres lecturas de la Fase A de la ronda $N están escritas en _LYCAEUM/rondas/ronda_${N}/. Lee los response_*.md, identifica el punto de tensión y escribe los task_debate_*.md para la Fase B."
+    sleep 1
 
-    echo "Esperando task_debate_*.md en $DIR..."
+    # ── FASE B ──
     echo ""
+    echo "── FASE B — Debate ──"
 
     for AGENTE in opencode gemini qwen; do
-        local TASK="$DIR/task_debate_${AGENTE}.md"
-        local SESSION="lycaeum_${AGENTE}"
-
-        if [ ! -f "$TASK" ]; then
-            echo "⏳ Esperando $TASK..."
-            inotifywait -e close_write --include "task_debate_${AGENTE}\\.md" "$DIR" 2>/dev/null
-        fi
-
+        wait_for_file "$RONDA_DIR/task_debate_${AGENTE}.md" "task_debate_${AGENTE}.md"
         echo "📤 Enviando debate a $AGENTE..."
-        tmux send-keys -t $SESSION "@_LYCAEUM/rondas/ronda_${N}/task_debate_${AGENTE}.md" Enter
+        send_to "lycaeum_${AGENTE}" "Lee _LYCAEUM/rondas/ronda_${N}/task_debate_${AGENTE}.md y responde en _LYCAEUM/rondas/ronda_${N}/debate_${AGENTE}.md"
         sleep 1
     done
 
-    echo ""
-    echo "✅ Tareas de debate enviadas. Esperando respuestas..."
-    wait_responses "$DIR" "debate" "$N"
-}
+    echo "✅ Tareas Fase B enviadas."
+    wait_three "$RONDA_DIR" "debate" "Fase B"
 
-# Espera a que los tres archivos de respuesta existan
-wait_responses() {
-    local DIR=$1
-    local PREFIX=$2
-    local N=$3
-
-    local PENDIENTES=3
-
-    while [ $PENDIENTES -gt 0 ]; do
-        PENDIENTES=0
-        for AGENTE in opencode gemini qwen; do
-            local RESP="$DIR/${PREFIX}_${AGENTE}.md"
-            if [ ! -f "$RESP" ]; then
-                PENDIENTES=$((PENDIENTES + 1))
-            fi
-        done
-
-        if [ $PENDIENTES -gt 0 ]; then
-            # Esperar cambio en el directorio
-            inotifywait -e close_write "$DIR" 2>/dev/null
-        fi
-    done
+    echo "📣 Notificando al orquestador — Fase B completa..."
+    send_to $SESSION_ORQUESTADOR "Las tres respuestas del debate de la Fase B de la ronda $N están escritas en _LYCAEUM/rondas/ronda_${N}/. Lee los debate_*.md, actualiza el blackboard.md y avísame cuando estés listo para continuar."
+    sleep 1
 
     echo ""
-    echo "✅ Las tres respuestas están escritas."
-
-    if [ "$PREFIX" = "response" ]; then
-        echo "👉 Avisa al orquestador:"
-        echo "   tmux send-keys -t $SESSION_ORQUESTADOR"
-        echo "   \"Las tres lecturas de la Fase A están en rondas/ronda_${N}/. Lee los response_*.md y prepara la Fase B.\" Enter"
-        echo ""
-        echo "   O ejecuta: ./lycaeum.sh notify $N A"
-    else
-        echo "👉 Avisa al orquestador:"
-        echo "   O ejecuta: ./lycaeum.sh notify $N B"
-    fi
-}
-
-# ─────────────────────────────────────────────
-# COMANDO: notify N [A|B]
-# Avisa al orquestador que las respuestas están listas
-# ─────────────────────────────────────────────
-cmd_notify() {
-    local N=$(printf "%02d" $1)
-    local FASE=${2:-A}
-
-    if [ "$FASE" = "A" ]; then
-        tmux send-keys -t $SESSION_ORQUESTADOR \
-            "Las tres lecturas de la Fase A de la ronda $N están escritas en _LYCAEUM/rondas/ronda_${N}/. Lee los response_*.md, identifica el punto de tensión y prepara las tareas de la Fase B (task_debate_*.md)." \
-            Enter
-        echo "✅ Orquestador notificado — Fase A ronda $N completa."
-    else
-        tmux send-keys -t $SESSION_ORQUESTADOR \
-            "Las tres respuestas del debate de la Fase B de la ronda $N están escritas en _LYCAEUM/rondas/ronda_${N}/. Lee los debate_*.md, actualiza el blackboard y prepara la ronda $((10#$N + 1))." \
-            Enter
-        echo "✅ Orquestador notificado — Fase B ronda $N completa."
-    fi
+    echo "════════════════════════════════════════"
+    echo "  Ronda $N completa."
+    echo "  Cuando el orquestador cierre la ronda:"
+    echo "  ./lycaeum.sh ronda $((10#$N + 1))"
+    echo "════════════════════════════════════════"
 }
 
 # ─────────────────────────────────────────────
 # COMANDO: status
-# Muestra el estado de todas las rondas
 # ─────────────────────────────────────────────
 cmd_status() {
+    local POEMAS=("" "Av. Meridiana" "Plácida insurrección" "Las ventanas" "27, y sigue..." "Hay poesía" "Obituario" "Caín" "Que una línea traiga tu voz" "Diógenes" "Unidad conceptual")
     echo "Estado LYCAEUM — Fábulas sin moraleja"
-    echo "======================================"
-    for N in $(seq -f "%02g" 1 10); do
-        local DIR="$LYCAEUM/rondas/ronda_$N"
+    echo "═══════════════════════════════════════"
+    for N in $(seq 1 10); do
+        local NP=$(printf "%02d" $N)
+        local DIR="$LYCAEUM/rondas/ronda_$NP"
+        local FA="⏳" FB="⏳"
         if [ -d "$DIR" ]; then
-            local RA=$([ -f "$DIR/response_opencode.md" ] && [ -f "$DIR/response_gemini.md" ] && [ -f "$DIR/response_qwen.md" ] && echo "✅" || echo "⏳")
-            local RB=$([ -f "$DIR/debate_opencode.md" ] && [ -f "$DIR/debate_gemini.md" ] && [ -f "$DIR/debate_qwen.md" ] && echo "✅" || echo "⏳")
-            echo "  Ronda $N — Fase A: $RA  Fase B: $RB"
+            [ -f "$DIR/response_opencode.md" ] && [ -f "$DIR/response_gemini.md" ] && [ -f "$DIR/response_qwen.md" ] && FA="✅"
+            [ -f "$DIR/debate_opencode.md" ]  && [ -f "$DIR/debate_gemini.md" ]  && [ -f "$DIR/debate_qwen.md" ]  && FB="✅"
+            echo "  Ronda $NP — ${POEMAS[$N]} — Fase A: $FA  Fase B: $FB"
+        else
+            echo "  Ronda $NP — ${POEMAS[$N]} — [pendiente]"
         fi
     done
 }
@@ -220,24 +171,21 @@ cmd_status() {
 # ─────────────────────────────────────────────
 case "$1" in
     start)   cmd_start ;;
-    ronda)   cmd_ronda "$2" "$3" ;;
-    notify)  cmd_notify "$2" "$3" ;;
+    ronda)   cmd_ronda "$2" ;;
     status)  cmd_status ;;
     *)
-        echo "LYCAEUM — Sistema de mesa redonda crítica automatizada"
+        echo "LYCAEUM — Mesa redonda crítica automatizada"
         echo ""
         echo "Uso:"
-        echo "  ./lycaeum.sh start              Lanza las 4 sesiones tmux con los CLIs"
-        echo "  ./lycaeum.sh ronda N [A|B]      Vigila la ronda N y automatiza el envío"
-        echo "  ./lycaeum.sh notify N [A|B]     Notifica al orquestador que las respuestas están listas"
-        echo "  ./lycaeum.sh status             Muestra el estado de todas las rondas"
+        echo "  ./lycaeum.sh start      Lanza las 4 sesiones tmux"
+        echo "  ./lycaeum.sh ronda N    Gestiona la ronda N completa (Fase A + B)"
+        echo "  ./lycaeum.sh status     Estado de todas las rondas"
         echo ""
-        echo "Flujo normal:"
+        echo "Flujo:"
         echo "  1. ./lycaeum.sh start"
-        echo "  2. Adjunta las sesiones en Terminator"
-        echo "  3. Dile al orquestador el objetivo y que prepare la ronda 1"
-        echo "  4. ./lycaeum.sh ronda 1 A       (en otra terminal — vigila y envía automático)"
-        echo "  5. ./lycaeum.sh ronda 1 B       (cuando el orquestador haya preparado la Fase B)"
-        echo "  6. Repite para rondas 2-10"
+        echo "  2. Adjunta las 4 sesiones en Terminator"
+        echo "  3. Dile al orquestador el objetivo y que prepare la ronda N"
+        echo "  4. ./lycaeum.sh ronda 1   (en terminal aparte)"
+        echo "  5. Al terminar cada ronda: ./lycaeum.sh ronda N+1"
         ;;
 esac
