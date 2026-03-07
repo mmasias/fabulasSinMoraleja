@@ -2,9 +2,9 @@
 
 <div align=right>
 
-|||||
-|-|-|-|-|
-|[🏠️](../README.md)|**Artículo**|[Contexto](contexto.md)|[Evidencia](evidencia.md)
+||||||
+|-|-|-|-|-|
+|[🏠️](../README.md)|**Artículo**|[Contexto](contexto.md)|[Lo más "técnico"](evidencia.md)|[Código completo](/_LYCAEUM/)
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### El problema de la lectura única
 
-Un autor no puede leer su propia obra desde fuera: está demasiado "dentro".
+Un autor no puede leer su propia obra desde fuera. Está demasiado dentro.
 
 La solución obvia es pedir a otros que la lean. Pero ¿qué pasa si los "otros" son tres LLMs con marcos críticos radicalmente distintos, obligados a discrepar entre sí?
 
@@ -62,6 +62,8 @@ El resultado más valioso del experimento no fue la calidad analítica individua
 El experimento demuestra que la aplicación de LLMs a tareas cognitivas complejas no se agota en la generación y revisión de código. La capacidad de internalizar marcos filosóficos, sostenerlos bajo presión de debate, y producir argumentos que se refinan en tensión con otros marcos es un vector de uso sustancialmente distinto y menos explorado.
 
 ## ¿Cómo?
+
+El código completo del sistema está disponible en: [fabulasSinMoraleja/_LYCAEUM](https://github.com/mmasias/fabulasSinMoraleja/tree/main/_LYCAEUM)
 
 ### Arquitectura del sistema
 

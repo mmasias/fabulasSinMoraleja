@@ -2,9 +2,9 @@
 
 <div align=right>
 
-|||||
-|-|-|-|-|
-|[🏠️](../README.md)|[Artículo](README.md)|**Contexto**|[Evidencia](evidencia.md)
+||||||
+|-|-|-|-|-|
+|[🏠️](../README.md)|[Artículo](README.md)|**Contexto**|[Lo más "técnico"](evidencia.md)|[Código completo](/_LYCAEUM/)
 
 </div>
 

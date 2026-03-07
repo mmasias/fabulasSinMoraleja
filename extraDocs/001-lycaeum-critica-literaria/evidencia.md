@@ -1,10 +1,10 @@
-# Evidencia y Referencias - Artículo 001
+# Lo más "técnico" - Artículo 001
 
 <div align=right>
 
-|||||
-|-|-|-|-|
-|[🏠️](../README.md)|[Artículo](README.md)|[Contexto](contexto.md)|**Evidencia**
+||||||
+|-|-|-|-|-|
+|[🏠️](../README.md)|[Artículo](README.md)|[Contexto](contexto.md)|**Lo más "técnico"**|[Código completo](/_LYCAEUM/)
 
 </div>
 
