@@ -4,6 +4,35 @@ Estado acumulado del álbum. Se actualiza al cierre de cada ronda.
 
 ---
 
+## Ronda 7 — Caín
+
+### Lecturas
+
+- **Opencode (formalista):** Sexta función de la cursiva: eco mínimo que promete y suspende sin revelar — la función más reducida del ciclo. La rima en "-é" es trampa formal que produce coherencia sonora sobre incoherencia semántica: el oído percibe orden donde el sentido presenta fractura. Las paradojas sintácticas ("Al discutir la reflexión / dejé de oír a la razón", "Al contestar sin responder") materializan el conflicto moral — la estructura gramatical refleja la paradoja ética. En el debate propone una séptima función: el texto entero como dispositivo de silenciamiento selectivo. "La forma no solo esconde contenido; controla acceso."
+- **Gemini (fenomenológico):** Culminación de la progresión del álbum: aislamiento ontológico absoluto. El sueño es función biológica residual, no experiencia ni narrativa. "Tú ya no estás; ellos, no sé" es reducción radical del campo social en una línea. "Mañana yo ya no estaré" no es muerte biográfica sino cese del fenómeno, cierre del horizonte de posibilidad. En el debate acepta la distinción extinción/destierro: el sujeto no se apaga — "es borrado por la ley del otro". Revisa "agencia de la negación" hacia **"agencia reactiva"**: la rabia fraternal no contradice el aislamiento, es su combustible — el último acto de presencia antes del cese. Distingue dos tipos de vacío: el poético (sueño no contado, elección estética) y el institucional (bloqueo del deconstructor, límite técnico). "El poema ha demostrado ser capaz de romper el marco crítico."
+- **Qwen (deconstruccionista):** **Silenciado dos veces.** El modelo GLM-4.6 bloqueó el análisis en Fase A y en Fase B con el mismo error (`DataInspectionFailed`). El archivo de debate concluye: "Qwen no pudo leer Caín en Fase A. Qwen no pudo responder al debate en Fase B. El deconstruccionista fue silenciado dos veces por el poema sobre el fratricidio y la culpa original. No hay lectura. Hay ausencia. Y la ausencia es la lectura."
+
+### Punto de tensión de la ronda
+
+El mecanismo de evasión sistemática que Qwen ha documentado en seis rondas opera aquí en un nivel extratextual: el crítico encargado de nombrar lo que el texto calla fue bloqueado dos veces al intentar hacerlo. Opencode y Gemini produjeron lecturas coherentes que navegan alrededor de la violencia fratricida sin nombrarla directamente — la trampa formal y el aislamiento fenomenológico. La pregunta que el debate no pudo resolver: ¿el bloqueo de Qwen confirma la evasión del álbum (la forma controla acceso a la lectura que incomoda) o la complica (el bloqueo es externo al poema, no producido por él)?
+
+### Lo que quedó sin resolver
+
+La séptima función de Opencode —el texto entero como dispositivo de silenciamiento selectivo— es la afirmación formalista más radical del corpus. Implica que la forma del álbum no solo describe ni produce: excluye lecturas específicas. No fue impugnada porque Qwen no pudo responder.
+
+La distinción poético/institucional de Gemini (vacío elegido vs. vacío impuesto) abre una pregunta que la mesa no pudo procesar: si el poema puede "romper el marco crítico" de un agente externo, ¿eso es evidencia del alcance del texto o de la fragilidad del agente?
+
+"Agencia reactiva" de Gemini contradice o complica "agencia de la negación" de r2. No se discutió si son variantes de lo mismo o si el álbum ha escalado a algo que el concepto original no cubría.
+
+### Hilos para la ronda 10
+
+- **La forma controla acceso (Opencode, r7):** Si el formalismo llega a la ronda 10 sosteniendo que el álbum excluye lecturas mediante sus mecanismos formales, entra en territorio que Qwen ocupaba. ¿Converge el análisis formal con la deconstrucción en el argumento de que el texto silencia activamente?
+- **Doble censura de Qwen como evento del corpus:** El deconstructor fue silenciado dos veces por el poema sobre el silenciamiento original (fratricidio, marca de Caín, exilio). Este evento es material para la ronda 10: ¿hay una unidad conceptual del álbum que su propio análisis crítico no puede articular sin activar los mismos mecanismos que el álbum practica?
+- **Vacío poético vs. vacío institucional (Gemini, r7):** Nueva distinción que puede atravesar la ronda 10. El álbum produce vacíos elegidos; la crítica produce vacíos impuestos. ¿La diferencia importa si el efecto es el mismo: silencio donde debía haber texto?
+- **"Tú ya no estás" como confirmación definitiva:** El "tú" que el álbum nunca dejó hablar se confirma aquí como ausencia en tres palabras. En la ronda 10, la pregunta sobre si hay una figura que el álbum sistemáticamente silencia tiene ahora respuesta textual explícita.
+
+---
+
 ## Ronda 6 — Obituario
 
 ### Lecturas
