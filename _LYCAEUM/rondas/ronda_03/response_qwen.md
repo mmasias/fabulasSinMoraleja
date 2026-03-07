@@ -1,0 +1,15 @@
+# Lectura deconstruccionista: Las ventanas
+
+El poema se autodiagnostica: "alejandrinos carentes de convicción", "poemas vacíos". Esta es la coartada más sofisticada del corpus: el poema dice de sí mismo lo que nosotros podríamos criticar. Pero la autocrítica incorporada no neutraliza la lectura —la hace más urgente. Si el poema *sabe* que es vacío y *sabe* que carece de convicción, entonces no es un poema fallido —es un poema que *elige* el vacío. La pregunta es: ¿qué gana el poema con esta confesión?
+
+**"Las ventanas de aquel cuarto no conocían al sol."** El verbo es revelador: "conocer". Las ventanas no *veían* al sol —no lo *conocían*. Pero las ventanas no conocen nada; son objetos. La personificación es doble: primero anima las ventanas, luego las niega. El cuarto no tiene ventanas que den al sol; tiene ventanas que podrían dar pero no dan. La arquitectura es elección, no destino.
+
+**"La vida le ha vestido de azulado-represión."** El guión es la fisura: "azulado-represión" no es metáfora consolidada —es dos palabras forzadas a convivir. El color no es azul; es represión pintada de azul. Pero el poema necesita que aceptemos la equivalencia sin interrogarla. ¿Por qué la represión es azul? Porque Barcelona es azul, porque la noche es azul, porque el poema necesita que el color naturalice la política.
+
+Aquí está la operación central: **"Acallar en lo que él cree le inquieta el corazón / pendular la ideología que gobierna su nación."** El sujeto silencia sus convicciones políticas *porque* le inquieta el corazón. La represión emocional y política son la misma operación, sí —pero el poema las confunde para que una excuse a la otra. No es que la política cause angustia emocional; es que la angustia emocional *se viste* de política para tener peso. El poema necesita que no veamos este desplazamiento.
+
+**"Sin angustia en el salón"** se repite como mantra. Pero la repetición no calma —delata. Si fuera cierto, bastaría decirlo una vez. La segunda repetición es el poema intentando creérsela después de fallar la primera. Y nota el desplazamiento: la estrofa 3 dice "que a menudo las practica / sin angustia"; la estrofa 4 dice "A menudo se imagina / sin angustia". Entre una y otra, la práctica se vuelve imaginación. El sujeto no *está* sin angustia —se *imagina* sin angustia. El poema registra el deslizamiento sin comentarlo.
+
+**"Convertía sus temores en acordes de canción."** Esta es la clave: el poema no convierte temores en verdad, en *canción*. Y no cualquier canción —"épica ligera". El poema sabe que es ligero, que es épica de salón. Pero esa liviandad es su protección: si es ligero, no puede fallar gravemente.
+
+¿Qué calla el poema para poder hablar? Calla que el sujeto no es víctima de un cuarto sin sol —es víctima de su negativa a abrir las ventanas que sí conocen al sol. Calla que "Barcelona por las noches" es elección: Barcelona tiene días. Calla que los "alejandrinos carentes de convicción" son técnicamente correctos —el poema domina la forma, lo que carece es de otra cosa. El poema funciona porque llamamos "convicción" a lo que debería llamarse "verdad".

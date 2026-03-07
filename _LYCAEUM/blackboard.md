@@ -4,6 +4,33 @@ Estado acumulado del álbum. Se actualiza al cierre de cada ronda.
 
 ---
 
+## Ronda 3 — Las ventanas
+
+### Lecturas
+
+- **Opencode (formalista):** La monorrima total en "-ón" es jaula sonora que ejecuta el encierro en lugar de describirlo. El autodiagnóstico ("alejandrinos carentes de convicción") es metadispositivo: el poema sabe que es máquina y continúa funcionando igualmente. El verso repetido "sin angustia en el salón" muta entre apariciones —de acción a imaginación— marcando circularidad. Tríada de dispositivos formales del álbum consolidada: cursiva/prótesis (r1), cursiva/pausa (r2), monorrima+loop (r3). Convergencia con Gemini: los dispositivos formales son máquinas de producción afectiva —la arquitectura formal genera la experiencia fenomenológica.
+- **Gemini (fenomenológico):** Progresión espacial del álbum: cuarto que duele (r1) → estación suspendida (r2) → salón como ecosistema cerrado (r3). La razón que "visita los domingos" es lucidez periódica y externa: observa el desastre sin remediarlo. "Sin angustia" no es paz sino suspensión de la afectividad. La tercera persona alcanza su forma definitiva: la conciencia permanece a salvo mientras el "él" actúa —"agencia de la negación" en su estadio máximo. El encierro es triple: físico (ventanas), emocional (anestesia), político (silencio de convicciones). El poema tiene razón sobre sí mismo: es forma vacía porque el sujeto decidió que el vacío es el único lugar donde la razón puede entrar sin ser destruida.
+- **Qwen (deconstruccionista):** La autocrítica incorporada radicaliza la deconstrucción. El poema gana inmunidad y autoridad al autodiagnosticarse: se posiciona como juez de sí mismo y desarma la lectura externa. Pero la autodeconstrucción es parcial: el poema se llama vacío formalmente ("alejandrinos") pero no se llama cómplice ("sin angustia"). El autodiagnóstico es preciso en la forma, ciego en la ética. Esa ceguera no es accidente: "el poema no puede decir que elige el vacío porque entonces dejaría de ser tragedia y sería decisión." El poema estetiza la prisión —disfruta la jaula en lugar de sufrirla. Llama "agencia de la negación" a lo que es cobardía institucionalizada.
+
+### Punto de tensión de la ronda
+
+El poema se autodiagnostica como vacío y los tres lo aceptan, pero divergen en qué implica: para Opencode es coherencia formal que hace al poema más complejo; para Gemini es la confirmación de que el vaciado deliberado es estrategia de supervivencia; para Qwen es inmunidad comprada, y la ceguera ética del autodiagnóstico —saber que eres vacío formalmente sin saber que eres cómplice moralmente— es la trampa específica de este poema.
+
+### Lo que quedó sin resolver
+
+¿Puede un acto ser simultáneamente cobardía (Qwen) y estrategia de supervivencia (Gemini)? Ninguno respondió si son mutuamente excluyentes. Opencode no respondió a la observación de que el poema "disfruta la jaula": ¿puede un dispositivo formal producir placer en el encierro que ejecuta, y qué implicaría eso para la tríada?
+
+La convergencia Opencode-Gemini —dispositivos como máquinas de producción afectiva— es el acuerdo más sólido del corpus hasta ahora, pero Qwen no lo impugnó directamente. Queda pendiente si ese acuerdo resiste su presión.
+
+### Hilos para la ronda 10
+
+- **Vacío formal / vacío moral (Qwen):** La distinción más potente del corpus hasta ahora. Si el álbum opera sistemáticamente diagnosticando sus fallas formales mientras permanece ciego a sus fallas éticas, hay una poética de la autoceguera selectiva.
+- **El poema no puede decir que elige el vacío porque dejaría de ser tragedia:** Si esto vale para el álbum entero, "Fábulas sin moraleja" podría ser un álbum que necesita presentarse como víctima de lo que en realidad elige.
+- **Convergencia Opencode-Gemini como hipótesis del álbum:** La arquitectura formal produce la experiencia fenomenológica. Si eso se confirma en los poemas restantes, hay una teoría unificada del álbum que Qwen tendrá que desafiar en la ronda 10.
+- **Encierro triple (físico / emocional / político):** Gemini detecta que la represión política no es decorado —es parte del sistema de anestesia. Si aparece en otros poemas, hay una dimensión política del álbum que ninguna ronda ha explorado en profundidad.
+
+---
+
 ## Ronda 2 — Plácida insurrección
 
 ### Lecturas
