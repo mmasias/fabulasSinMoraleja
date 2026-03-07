@@ -4,6 +4,34 @@ Estado acumulado del álbum. Se actualiza al cierre de cada ronda.
 
 ---
 
+## Ronda 9 — Diógenes
+
+### Lecturas
+
+- **Opencode (formalista):** Octava y última función de la cursiva: colapso del lenguaje — `*Ahhhhhhh....*` abandona la sintaxis para convertirse en vocalización sin contenido semántico. Punto final del dispositivo cursivo. El cambio a tercera persona es "dispositivo que cierra el ciclo del 'yo' y abre algo distinto: la observación de otros sujetos en crisis." Los guiones confirman patrón de aislamiento conceptual (segundo uso tras r8). En el debate acepta ambas lecturas (colapso/transformación) como ángulos del mismo mecanismo y propone el **doble movimiento** como estructura formal del cierre: "colapso del lenguaje (cursiva en sonido) y persistencia afectiva (el verso sobre el afecto estéril). Ambos son mecanismos formales que permiten coexistir disolución y resistencia." Acepta la "presencia ausente" de Qwen como formalmente operativa: "El formalismo puede identificar esa estructura sin necesidad de explicitar la moraleja."
+- **Gemini (fenomenológico):** "Etapa espectral": el "yo" se desintegra en cuerpo observado en deriva final. "Afecto estéril imperfecto que la locura no puede quitar" es el hallazgo fenomenológico más potente del álbum: residuo afectivo indestructible — "la soledad no es un vacío, sino un afecto que se ha quedado sin objeto." Las tres formas de partir: declaración (r7), súplica (r8), sueño inconsciente (r9) — la tercera es la más plácida y definitiva. El grito es "transformación en sonido puro." En el debate converge con Qwen sobre la moraleja ("constatación ontológica": después de agotar todos los conceptos, solo queda el fenómeno desnudo) y añade la categoría más original del corpus: **"vulnerabilidad de la carne"** — anterior a cualquier construcción de poder o lenguaje, lo que la locura no puede quitar porque no es idea sino cualidad del organismo. Sobre la mochila: **"somatización definitiva"** — las penas ya no se cuentan, se cargan como parte del cuerpo. "El álbum termina no con una respuesta, sino con la entrega del cuerpo a la noche de la ciudad."
+- **Qwen (deconstruccionista):** La tercera persona es el punto donde el sujeto "se sabe insuficiente para su propia narrativa" — no el yo que se mira desde afuera, sino el yo que se viste con otro cuerpo. Diógenes como "máscara y espejo simultáneamente." *Fábulas sin moraleja* tiene moraleja, pero como "presencia ausente" — encarnada en Diógenes, no articulada. En el debate concede que la presencia ausente protege al álbum del interrogatorio ético: **"Esta es la evasión más sofisticada del corpus: citar al filósofo de la coherencia radical sin volverse coherente."** Sobre la partida: distingue "acción sin garantía" de la vulnerabilidad estetizada de r8 — Diógenes "no sabe ni porqué se va", hay desconocimiento no performativo. Sobre el afecto estéril: "si el afecto es residuo de extracción, el álbum no solo pierde — ha perdido algo que nunca fue suyo." Define el eje para r10: **"¿Es *Fábulas sin moraleja* honesto sobre su falta de moraleja o es la última fábula con moraleja — la que niega tenerla?"**
+
+### Punto de tensión de la ronda
+
+Los tres marcos convergen en que el álbum termina con un "doble movimiento" (Opencode): disolución simultánea a persistencia. Pero nombran de forma incompatible qué persiste: para Gemini es la "vulnerabilidad de la carne", anterior a toda construcción; para Qwen es el residuo de lo que el sujeto extrajo y no pudo retener — "algo que nunca fue suyo." La tensión no se cerró: Gemini añadió una categoría (lo anterior al lenguaje y al poder) que ni Qwen ni Opencode respondieron.
+
+### Lo que quedó sin resolver
+
+La "vulnerabilidad de la carne" de Gemini es la propuesta más filosófica del corpus y la menos respondida. Si hay algo anterior a la operación colonial (Qwen) y anterior a la arquitectura formal (Opencode), ¿los tres marcos tienen un límite compartido que ninguno puede cruzar?
+
+La pregunta de Qwen para r10 quedó formulada con precisión pero sin respuesta: ¿el álbum es honesto sobre su falta de moraleja o es la última fábula con moraleja — la que niega tenerla? Opencode aceptó que hay "enseñanza implícita pero no dicha" sin explorar las implicaciones. Gemini reformuló la moraleja como constatación ontológica. Qwen la llamó la evasión más sofisticada. Tres posiciones sobre la misma estructura, sin síntesis.
+
+### Hilos para la ronda 10
+
+- **El doble movimiento como estructura del álbum completo (Opencode, r9):** Si el álbum termina con colapso + persistencia simultáneos, ¿opera esa doble estructura a lo largo del corpus? ¿Cada poema produce vaciamiento Y un elemento que resiste?
+- **"Vulnerabilidad de la carne" como límite de los tres marcos (Gemini, r9):** Si hay algo anterior a cualquier construcción de poder o lenguaje, r10 debe preguntar si la crítica literaria puede alcanzarlo o si ese es el punto donde los tres marcos llegan a su propio límite.
+- **La última fábula con moraleja (Qwen, r9):** El eje de r10. Tres posibles respuestas al título: (a) el álbum genuinamente carece de moraleja, (b) tiene una moraleja encubierta que niega (Qwen), (c) la ausencia de moraleja ES la moraleja — constatación ontológica (Gemini). Los tres marcos deben posicionarse.
+- **"La evasión más sofisticada del corpus" (Qwen, r9):** Citar a Diógenes sin volverse coherente. Si esto es cierto, el álbum es un sistema que aprende a evadir con mayor refinamiento a medida que avanza. r10 debe decidir si eso es fracaso artístico, honestidad estructural, o crítica disfrazada.
+- **"Acción sin garantía" vs. vulnerabilidad estetizada (Qwen, r9):** Qwen concedió por primera vez en nueve rondas que algo en el corpus podría ser genuino. Esa concesión va a r10.
+
+---
+
 ## Ronda 8 — Que una línea traiga tu voz
 
 ### Lecturas
