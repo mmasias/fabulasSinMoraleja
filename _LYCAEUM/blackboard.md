@@ -4,6 +4,32 @@ Estado acumulado del álbum. Se actualiza al cierre de cada ronda.
 
 ---
 
+## Ronda 6 — Obituario
+
+### Lecturas
+
+- **Opencode (formalista):** Quinta función de la cursiva: contraescritura que disputa la autoridad discursiva —el hablante ofrece el texto alternativo de su propia biografía. La cursiva comienza con "ojalá", lo que la hace "contraescritura impotente": opera desde el deseo, no desde la afirmación, pero sigue siendo texto alternativo. El verso final es colapso deliberado del sistema filosófico en el remate —construye tensión para disolverla en banalidad. La rima regular del segundo cuarteto enmarca la vida desordenada "como destino ya escrito". Converge con Gemini: el formalismo detecta el dispositivo; la fenomenología siente su efecto.
+- **Gemini (fenomenológico):** Regreso del cuerpo tras la mirada-lente de r5. El obituario como anticipación petrificada —"el 'él' escrito en piedra es más real que el 'yo' ebrio en la cama". El deseo de normalidad es la anestesia definitiva. El verso final no es autoanulación sino "colapso somático" —la risa nerviosa de quien acaba de ver su propia tumba. Síntesis más elegante del debate: muerte y abandono son el mismo fenómeno, "muerte social precediendo a la biológica". El hablante se convierte en "él" en el mármol para no tener que ser "yo" que sufre el silencio de los demás.
+- **Qwen (deconstruccionista):** El hablante no puede ser simultáneamente sujeto y objeto de su propia muerte —algo cede. "No escrito por mí" pero el poema es exactamente ese obituario. La autoanulación del verso final es selectiva: el poema sabe que el obituario es innecesario pero no sabe que es excusa para el abandono. Distinción evasión/utopía según quién lee: "me encontraba los lunes si me daba la gana" es evasión para el hablante, utopía para el lector —pero el poema necesita que el lector vea utopía donde hay evasión. Primera lectura sinóptica del álbum: "el hablante repite la evasión de r2, la normaliza en r3, la estetiza en r4, la poetiza en r5, la trivializa en r6." La autoanulación no libera —condena a repetir.
+
+### Punto de tensión de la ronda
+
+El verso final. Los tres lo leen de formas incompatibles: colapso deliberado del sistema filosófico que reduce la tensión a banalidad (Opencode), colapso somático —risa nerviosa ante la propia tumba que revela la muerte social del hablante (Gemini), escape que desplaza la tensión sin disolverla y condena al poema a repetir (Qwen). La distinción no es solo de lectura: determina si el álbum está llegando a un punto de reconocimiento o perpetuando la misma evasión.
+
+### Lo que quedó sin resolver
+
+La distinción evasión/utopía según quién lee: si el mismo verso produce experiencias opuestas para el hablante y para el lector, ¿el texto es ambiguo o dividido? ¿Y tiene el álbum una dirección o produce lecturas en conflicto?
+
+La "contraescritura impotente": Opencode concede que la cursiva opera desde el deseo. Si todos los dispositivos del álbum operan desde la impotencia, ¿qué produce un sistema formal completo de mecanismos impotentes?
+
+### Hilos para la ronda 10
+
+- **Progresión de disfraces del álbum (Qwen):** La evasión se repite disfrazada: insurrección (r2), alejandrinos sin convicción (r3), club de los 27 (r4), poesía del otro (r5), trivialización (r6). Si los tres poemas restantes continúan el patrón, la ronda 10 tiene un argumento estructural completo sobre el álbum.
+- **Muerte social precediendo a la biológica (Gemini):** Si el hablante ya está socialmente muerto desde r1, el álbum entero es el registro de esa muerte lenta. El obituario no es anticipación —es confirmación tardía.
+- **Evasión vs. utopía según el lector:** El álbum puede producir lecturas radicalmente distintas dependiendo de si el lector habita la mirada del hablante (Gemini) o la interroga (Qwen). ¿Cuál es la posición que el álbum invita a tomar?
+
+---
+
 ## Ronda 5 — Hay poesía
 
 ### Lecturas
