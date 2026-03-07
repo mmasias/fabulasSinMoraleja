@@ -12,7 +12,7 @@
 
 ### El problema de la lectura única
 
-Un autor no puede leer su propia obra desde fuera. Está demasiado dentro.
+Un autor no puede leer su propia obra desde fuera: está demasiado "dentro".
 
 La solución obvia es pedir a otros que la lean. Pero ¿qué pasa si los "otros" son tres LLMs con marcos críticos radicalmente distintos, obligados a discrepar entre sí?
 
