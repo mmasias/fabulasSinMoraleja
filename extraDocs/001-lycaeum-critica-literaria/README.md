@@ -12,7 +12,9 @@
 
 ### El problema de la lectura única
 
-Un autor no puede leer su propia obra con marcos críticos simultáneos e incompatibles. La lectura formalista — que pregunta cómo funciona el texto técnicamente — excluye por construcción la pregunta fenomenológica sobre qué experiencia produce. La deconstruccionista — que busca lo que el texto calla — entra en conflicto directo con la que celebra la coherencia formal.
+Un autor no puede leer su propia obra desde fuera. Está demasiado dentro.
+
+La solución obvia es pedir a otros que la lean. Pero ¿qué pasa si los "otros" son tres LLMs con marcos críticos radicalmente distintos, obligados a discrepar entre sí?
 
 Los LLMs han demostrado capacidad para internalizar tradiciones críticas completas: tienen a los formalistas rusos, a Merleau-Ponty, a Derrida. Pero convocados individualmente sobre un texto producen lecturas que tienden a la síntesis y el consenso — exactamente lo contrario de lo que necesita una obra en proceso de comprenderse a sí misma.
 
