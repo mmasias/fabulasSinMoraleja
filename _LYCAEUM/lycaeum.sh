@@ -149,19 +149,20 @@ cmd_ronda() {
 # COMANDO: status
 # ─────────────────────────────────────────────
 cmd_status() {
-    local POEMAS=("" "Av. Meridiana" "Plácida insurrección" "Las ventanas" "27, y sigue..." "Hay poesía" "Obituario" "Caín" "Que una línea traiga tu voz" "Diógenes" "Unidad conceptual")
-    echo "Estado LYCAEUM — Fábulas sin moraleja"
-    echo "═══════════════════════════════════════"
+    echo "Estado LYCAEUM — Fabulas sin moraleja"
+    echo "======================================="
+    local TITULOS="Av.Meridiana|Placida insurreccion|Las ventanas|27 y sigue|Hay poesia|Obituario|Cain|Que una linea|Diogenes|Unidad conceptual"
     for N in $(seq 1 10); do
         local NP=$(printf "%02d" $N)
         local DIR="$LYCAEUM/rondas/ronda_$NP"
-        local FA="⏳" FB="⏳"
+        local TITULO=$(echo "$TITULOS" | cut -d'|' -f$N)
+        local FA="pendiente" FB="pendiente"
         if [ -d "$DIR" ]; then
-            [ -f "$DIR/response_opencode.md" ] && [ -f "$DIR/response_gemini.md" ] && [ -f "$DIR/response_qwen.md" ] && FA="✅"
-            [ -f "$DIR/debate_opencode.md" ]  && [ -f "$DIR/debate_gemini.md" ]  && [ -f "$DIR/debate_qwen.md" ]  && FB="✅"
-            echo "  Ronda $NP — ${POEMAS[$N]} — Fase A: $FA  Fase B: $FB"
+            [ -f "$DIR/response_opencode.md" ] && [ -f "$DIR/response_gemini.md" ] && [ -f "$DIR/response_qwen.md" ] && FA="OK"
+            [ -f "$DIR/debate_opencode.md" ]  && [ -f "$DIR/debate_gemini.md" ]  && [ -f "$DIR/debate_qwen.md" ]  && FB="OK"
+            echo "  Ronda $NP — $TITULO — Fase A: $FA  Fase B: $FB"
         else
-            echo "  Ronda $NP — ${POEMAS[$N]} — [pendiente]"
+            echo "  Ronda $NP — $TITULO — [pendiente]"
         fi
     done
 }

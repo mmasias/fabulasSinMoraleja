@@ -16,6 +16,8 @@ Tres marcos críticos sobre nueve poemas + unidad conceptual del álbum.
 >
 >*Lo interesante no es que "analicen bien" — es que discrepan con coherencia. Qwen atacando a Gemini por habitar la contradicción en lugar de desmantelarla no es ruido — es una posición filosófica real.*
 
+***A tener en cuenta especialmente los puntos de tensión que identifica el orquestador — ahí es donde el sistema muestra si está generando algo real o solo "paráfrasis sofisticadas" que iteran sobre el mismo texto y concepto.***
+
 ## Lecturas y debates
 
 > Fase A: — Lectura independiente / Fase B — Debate
