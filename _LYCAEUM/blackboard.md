@@ -4,6 +4,32 @@ Estado acumulado del álbum. Se actualiza al cierre de cada ronda.
 
 ---
 
+## Ronda 2 — Plácida insurrección
+
+### Lecturas
+
+- **Opencode (formalista):** Los versículos irregulares son sistema controlado por cadencias ternarias. La cursiva cambia de función respecto a "Av. Meridiana": ya no es prótesis de la voz perdida sino cámara lenta que cronometra la duda suspendida. El cambio de primera a tercera persona objetiva el fracaso. La "rebelión sin sujeto": el "él" no elige ni es ficción —es objeto transformado por un sistema formal que necesita catalizadores externos (el "cretino") para activarse.
+- **Gemini (fenomenológico):** El sujeto pasa de sustracción accidental (ronda 1) a anestesia deliberada. La "nostalgia de la reactividad": busca lo que le daña porque al menos confirma que el cuerpo existe. La tercera persona no borra al sujeto —lo desdobla. Verse como "él" es la acción más activa de todas: el sujeto elige ser su propio espectador para no tener que ser su propio actor. Nombre para esto: "agencia de la negación".
+- **Qwen (deconstruccionista):** El oxímoron del título cancela la insurrección que promete. La conjugación verbal miente: "ha convencido" finge acción completada mientras el texto muestra duda en curso. El cretino es coartada. La cursiva no es solo dispositivo rítmico —es instrucción de lectura: "duda aquí". El poema solicita la complicidad en lugar de producirla silenciosamente. Detecta el deslizamiento pronominal: de "le han invitado" (tercera, pasivo) a "sueña volver" (actividad interior) —el poema mueve al lector de observador a cómplice sin que lo note. "La experiencia es corporal; el nombre es ideológico."
+
+### Punto de tensión de la ronda
+
+Gemini y Qwen convergen en que hay un sujeto con voluntad —pero la nombran de forma incompatible: para Gemini es "agencia de la negación" (el sujeto elige verse como "él", y eso es la decisión más activa); para Qwen esa misma operación es el mecanismo por el que el poema produce la ilusión de agencia. Llamarle "agencia de la negación" es ya la romantización que Qwen denuncia.
+
+### Lo que quedó sin resolver
+
+¿Puede la complicidad del lector ser simultáneamente la condición de la experiencia (Gemini) y su nombre ideológico (Qwen)? Opencode propone que son dos descripciones del mismo mecanismo en lenguajes distintos; Qwen insiste en que hay una diferencia política: solicitar implica que el lector puede negarse, producir sistemáticamente implica que no puede. Nadie respondió si esa distinción es real o retórica.
+
+La "agencia de la negación" de Gemini quedó sin contraargumento directo de Qwen: si el sujeto se objetiva deliberadamente, ¿eso es acción o su simulacro?
+
+### Hilos para la ronda 10
+
+- **Doblamiento pronominal como patrón del álbum:** Si otros poemas operan el mismo deslizamiento entre persona gramatical (observado / que siente), puede ser un dispositivo estructural del álbum, no un accidente de este poema.
+- **Títulos que prometen lo que el texto niega:** "Plácida insurrección" es instrucción política fallida. Si otros títulos del álbum hacen lo mismo, hay un patrón: el álbum llama a las cosas por nombres que las romantiza o desplaza. Relacionado con el hilo de ronda 1 sobre "Fábulas sin moraleja" como texto que falla en ser lo que dice que es.
+- **"La experiencia es corporal; el nombre es ideológico" (Qwen):** Posible eje de la ronda 10 si el álbum opera sistemáticamente nombrando las experiencias de forma que las desplace de su realidad.
+
+---
+
 ## Ronda 1 — Av. Meridiana
 
 ### Lecturas

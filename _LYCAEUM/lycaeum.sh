@@ -28,8 +28,8 @@ send_to() {
     local SESSION=$1
     local MSG=$2
     tmux send-keys -t "$SESSION" "$MSG"
-    sleep 0.3
-    tmux send-keys -t "$SESSION" "" Enter
+    sleep 0.5
+    tmux send-keys -t "$SESSION" "" C-m
 }
 
 wait_three() {
