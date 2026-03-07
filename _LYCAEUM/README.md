@@ -37,8 +37,6 @@ Tres marcos críticos sobre nueve poemas + unidad conceptual del álbum.
 |09|Diógenes|[🧾](rondas/ronda_09/response_gemini.md)|[🧾](rondas/ronda_09/response_opencode.md)|[🧾](rondas/ronda_09/response_qwen.md)|[🧾](rondas/ronda_09/debate_gemini.md)|[🧾](rondas/ronda_09/debate_opencode.md)|[🧾](rondas/ronda_09/debate_qwen.md)|
 |10|*Unidad conceptual*|[🧾](rondas/ronda_10/response_gemini.md)|[🧾](rondas/ronda_10/response_opencode.md)|[🧾](rondas/ronda_10/response_qwen.md)|[🧾](rondas/ronda_10/debate_gemini.md)|[🧾](rondas/ronda_10/debate_opencode.md)|[🧾](rondas/ronda_10/debate_qwen.md)|
 
----
-
 ## Estado acumulado
 
 - [blackboard.md](blackboard.md)
@@ -46,3 +44,7 @@ Tres marcos críticos sobre nueve poemas + unidad conceptual del álbum.
 ## Síntesis
 
 - [sintesis_final.md](sintesis_final.md)
+
+## Reflexión académico/técnica
+
+- [Reflexión](/extraDocs/001-lycaeum-critica-literaria/README.md)
