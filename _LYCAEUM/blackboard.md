@@ -4,6 +4,33 @@ Estado acumulado del álbum. Se actualiza al cierre de cada ronda.
 
 ---
 
+## Ronda 5 — Hay poesía
+
+### Lecturas
+
+- **Opencode (formalista):** La anáfora "Hay poesía en..." funciona como letanía afirmativa de validación progresiva —acumulación demostrativa distinta del loop (r3) y del fragmento (r4). El paréntesis inaugura nuevo ciclo de dispositivos: intrusión crítica con voz metapoética, dispositivo de exclusión que delimita quién puede ser poético. El poema establece un criterio interno que no puede sostener —¿es poesía porque el yo lo escribe o porque el tú lo inspira? Posición en el debate: la descripción del mecanismo de exclusión no es complicidad —"la cómplice sería la omisión, no la descripción." Propone convergencia de los tres marcos como tres ángulos del mismo mecanismo.
+- **Gemini (fenomenológico):** El "tú" regresa museificado: objeto de contemplación, nunca sujeto. El sujeto ha vuelto de la playa "como una lente" —sin cuerpo, solo mirada. "No quiero perder" es preservación del decorado de la propia percepción, no amor. La salida al mundo en r5 es la expansión definitiva del salón: el mundo entero es ahora superficie sin dimensión. En el debate concede: museificación = extracción ontológica. Pero traza distinción crucial: la extracción es por miedo al vacío, no por poder —"estrategia de supervivencia desesperada". El hablante coloniza para no morir de inanición sensorial.
+- **Qwen (deconstruccionista):** Máquina de apropiación colonial: el "tú" es poético cuando es pasivo, involuntario, ausente —en el momento en que actúa como escritor, el hablante lo niega. El paréntesis no es aclaración sino necesidad de certeza: el hablante necesita que el "tú" sea vacío para poder llenarlo. Ataque a Gemini: describir la museificación desde la perspectiva del observador reproduce el gesto del hablante. Cierre más sofisticado del corpus: "La apropiación no es poder puro —es dependencia disfrazada de poder. El colonizador necesita al colonizado." La deconstrucción no perdona —registra.
+
+### Punto de tensión de la ronda
+
+Los tres marcos convergen por primera vez en un diagnóstico compartido —la relación descrita es de dependencia disfrazada de poder— pero lo nombran de formas incompatibles: contradicción formal (Opencode), estrategia de supervivencia desesperada (Gemini), apropiación colonial (Qwen). El nombre importa: "expansión" sugiere crecimiento, "apropiación" sugiere violencia. Esa diferencia no es solo estilística.
+
+### Lo que quedó sin resolver
+
+Qwen acusa a Gemini de reproducir el gesto del hablante al habitar su mirada. Gemini no respondió directamente si la fenomenología puede hablar de la experiencia del "tú" observado sin repetir la operación que critica. Queda abierta la pregunta de si el método fenomenológico tiene una complicidad estructural con ciertos objetos de estudio.
+
+La "dependencia disfrazada de poder" de Qwen: si el colonizador necesita al colonizado, el "tú" tiene un poder latente que el poema no registra. ¿Dónde está ese poder?
+
+### Hilos para la ronda 10
+
+- **Convergencia de los tres marcos (Opencode):** Si los tres marcos describen tres caras del mismo mecanismo, la ronda 10 debe preguntarse: ¿qué queda por decir sobre la unidad del álbum cuando los tres ángulos confluyen?
+- **"La deconstrucción no perdona —registra" (Qwen):** Posible eje de la ronda 10 sobre el rol del crítico frente a un álbum con vacío moral sistemático. ¿Registrar es suficiente?
+- **El "tú" como figura que atraviesa el álbum:** La amada del cuadro (r4), las llamadas no contestadas (r5), el alma protegida (r1). ¿Hay una figura que el álbum nunca deja hablar? Si el colonizador necesita al colonizado, el "tú" silenciado es el eje ausente de todo el corpus.
+- **La fenomenología como cómplice estructural (Qwen a Gemini):** Si describir la museificación desde la perspectiva del observador reproduce la operación, ¿leer estos poemas reproduce también la mirada del hablante? Pregunta que puede atravesar la ronda 10.
+
+---
+
 ## Ronda 4 — 27, y sigue...
 
 ### Lecturas

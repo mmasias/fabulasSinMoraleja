@@ -110,7 +110,13 @@ cmd_ronda() {
     for AGENTE in opencode gemini qwen; do
         wait_for_file "$RONDA_DIR/task_${AGENTE}.md" "task_${AGENTE}.md"
         echo "📤 Enviando tarea a $AGENTE..."
-        send_to "lycaeum_${AGENTE}" "@_LYCAEUM/rondas/ronda_${N}/task_${AGENTE}.md"
+        # send_to "lycaeum_${AGENTE}" "@_LYCAEUM/rondas/ronda_${N}/task_${AGENTE}.md"
+        if [ "$AGENTE" = "opencode" ]; then
+            send_to "lycaeum_opencode" "Lee el archivo _LYCAEUM/rondas/ronda_${N}/task_opencode.md y escribe tu respuesta en _LYCAEUM/rondas/ronda_${N}/response_opencode.md"
+        else
+            send_to "lycaeum_${AGENTE}" "@_LYCAEUM/rondas/ronda_${N}/task_${AGENTE}.md"
+        fi
+
         sleep 1
     done
 
