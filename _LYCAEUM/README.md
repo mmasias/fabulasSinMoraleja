@@ -48,4 +48,4 @@ Tres marcos críticos sobre nueve poemas + unidad conceptual del álbum.
 ## Reflexión académico/técnica
 
 - [Reflexión](/extraDocs/001-lycaeum-critica-literaria/README.md)
-- [Resumen y reflexiones finales de los LLMs](zzz-extraReflexionesFinales/) (vale la pena leerlos!!!)
+- [Resumen y reflexiones finales de los LLMs](zzz-extraReflexionesFinales/README.md) (vale la pena leerlos!!!)
