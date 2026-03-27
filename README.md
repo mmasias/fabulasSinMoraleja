@@ -175,13 +175,13 @@ nunca entendí lo que encontré.
   
 La fraternal rabia infantil  
 A una señal impartiré.  
-Sé que no lo van a entender  
-porque mi cruz llegó después.  
+Tú ya no estás; ellos, no sé.  
+Mañana yo ya no estaré  
   
 Al contestar sin responder  
 más de una vez sentí temor.  
-Tú ya no estás; ellos, no sé.  
-Mañana yo ya no estaré  
+Sé que no lo van a entender  
+porque mi cruz llegó después.  
 
 ## Que una línea traiga tu voz
 
