@@ -232,3 +232,12 @@ Parte en la noche inseguro a un viaje del cual no va a regresar
 con débil linterna va casi a tientas, no sabe ni porqué se va  
 buscando las dudas para sus respuestas, alguna allá encontrará:  
 cargó en la mochila sus mejores penas, durmiendo se irá...  
+
+---
+
+|![](/images/avMeridiana-2.png)|![](/images/placidaInsurreccion-2.png)|![](/images/lasVentanas-2.png)|
+|-|-|-|
+|![](/images/27ySigue-2.png)|![](/images/hayPoesia-2.png)|![](/images/obituario-2.png)|
+|![](/images/cain-2.png)|![](/images/queUnaLineaTraigaTuVoz-2.png)|![](/images/diogenes-2.png)|
+
+</div>
