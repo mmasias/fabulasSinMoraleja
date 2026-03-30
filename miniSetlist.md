@@ -1,6 +1,10 @@
+
+
 # miniSetlist
 
 ## Caín
+
+<img src="https://github.com/user-attachments/assets/0d3b6204-0fcf-4472-beea-b67bf3086c5a" align=right width=40%/>
 
 Lluvia de abril, dogma de fe  
 Sin descansar sigo por hoy  
